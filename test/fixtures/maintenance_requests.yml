@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subject: MyString
+  request_type: MyString
+  state: MyString
+  scheduled_at: 2025-12-27 15:16:41
+  duration: 1
+  equipment: one
+  technician_id: 1
+  maintenance_team_id: 1
+
+two:
+  subject: MyString
+  request_type: MyString
+  state: MyString
+  scheduled_at: 2025-12-27 15:16:41
+  duration: 1
+  equipment: two
+  technician_id: 1
+  maintenance_team_id: 1
