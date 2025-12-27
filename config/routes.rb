@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   post "reset_password",  to: "auth#reset_password"
   get  "me",     to: "auth#me"
 
-  resources :equipment do
+  resources :equipments do
     get :requests, on: :member
   end
   
@@ -30,4 +30,6 @@ Rails.application.routes.draw do
       post :scrap
     end
   end  
+
+  resources :departments
 end
